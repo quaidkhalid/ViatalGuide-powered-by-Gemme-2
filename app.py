@@ -10,7 +10,7 @@ from langchain_core.runnables import RunnablePassthrough
 
 # load data
 
-loader = PyPDFLoader("D:\\Users\\Harry Mason\\Downloads\\are-you-ready-guide.pdf")
+loader = PyPDFLoader("your pdf")
 docs = loader.load()
 
 text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)

@@ -25,7 +25,7 @@ VitalGuide bridges the gap between life-threatening emergencies and the lack of 
 
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/yourusername/vitalguide.git  
+   git clone https://github.com/quaidkhalid/ViatalGuide-powered-by-Gemme-2.git  
    ```    
 
 2. Install the dependencies:  
