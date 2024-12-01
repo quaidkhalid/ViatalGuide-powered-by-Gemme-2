@@ -20,6 +20,21 @@ At its core, VitalGuide utilizes a **Retrieval-Augmented Generation (RAG)** syst
 VitalGuide bridges the gap between life-threatening emergencies and the lack of conventional communication methods. Whether you are an individual in need of immediate assistance, a community leader coordinating disaster response, or a first responder managing chaotic situations, VitalGuide equips you with lifesaving knowledge anytime, anywhere.  
 
 ---
+### Prerequisites
+#### Install Ollama
+VitalGuide requires Ollama to run the Gemma model locally.
+
+Install Ollama by following the instructions from the Ollama website.
+
+Once installed, pull the required Gemma model by running:
+
+    ```bash
+    ollama pull gemma2:2b
+
+    ```
+This step downloads the Gemma2:2b model necessary for the app to function properly.
+
+---
 
 ## Installation  
 
