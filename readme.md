@@ -20,8 +20,20 @@ At its core, VitalGuide utilizes a **Retrieval-Augmented Generation (RAG)** syst
 VitalGuide bridges the gap between life-threatening emergencies and the lack of conventional communication methods. Whether you are an individual in need of immediate assistance, a community leader coordinating disaster response, or a first responder managing chaotic situations, VitalGuide equips you with lifesaving knowledge anytime, anywhere.  
 
 ---
+
+### Technology Stack
+#### Frontend
+**Gradio**: For creating an interactive and user-friendly interface.
+#### Backend
+**Ollama**: To enable local usage of the Gemma model.
+**Gemma-2** Model: Provides retrieval-augmented responses for survival guidance.
+**LangChain**: Orchestrates interactions between the RAG pipeline components.
+**ChromaDB**: Used as a vector database for storing and retrieving indexed documents.
+
+---
+
 ### Prerequisites
-#### Install Ollama
+**Install Ollama**
 VitalGuide requires Ollama to run the Gemma model locally.
 
 Install Ollama by following the instructions from the Ollama website.
