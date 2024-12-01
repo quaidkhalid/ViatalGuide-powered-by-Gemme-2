@@ -23,12 +23,12 @@ VitalGuide bridges the gap between life-threatening emergencies and the lack of 
 
 ### Technology Stack
 #### Frontend
-**Gradio**: For creating an interactive and user-friendly interface.
+ - **Gradio**: For creating an interactive and user-friendly interface.
 #### Backend
-**Ollama**: To enable local usage of the Gemma model.
-**Gemma-2** Model: Provides retrieval-augmented responses for survival guidance.
-**LangChain**: Orchestrates interactions between the RAG pipeline components.
-**ChromaDB**: Used as a vector database for storing and retrieving indexed documents.
+ - **Ollama**: To enable local usage of the Gemma model.
+ - **Gemma-2** Model: Provides retrieval-augmented responses for survival guidance.
+ - **LangChain**: Orchestrates interactions between the RAG pipeline components.
+ - **ChromaDB**: Used as a vector database for storing and retrieving indexed documents.
 
 ---
 
